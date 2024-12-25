@@ -3,7 +3,12 @@ import './sectionfive.css'
 
 const SectionFive = () => {
   return (
-    <div id='section5' className='roadmap_main_container'>
+      <div id='section5' className='roadmap_main_container'>
+          <div>
+              <h4>Roasmap Development</h4>
+              <p>Welcome to Coldfield, the meme coin that brings a chill</p>
+          </div>
+          
     <div className='section_five_sub_main_container'>
 
         <div className='sub_two_container'>
@@ -31,41 +36,73 @@ const SectionFive = () => {
             </span>
         </div>
 
-        <div className='roadmap_container'>
-            <div className='roadmap_box'>
-                <div className='sub_roadmap_box'>
-                <span>BUDHA</span>
-                    <p>Lucky Buddha Launch - Now Available on Opensea</p>
-                    </div>
-                      </div> 
+                  <div className='roadmap_container'>
                       
-            <div className='roadmap_box'>
-                <div className='sub_roadmap_box'>
-                <span>BUDHA</span>
-                    <p>Lucky Buddha Launch - Now Available on Opensea</p>
+                      <div className='roadmap_main_box'>
+                      <span className='sub_roadmap_box_text_heading_title'>Laying the Foundation 🚧</span>
+                      <div className='roadmap_box'>
+                          <div className='sub_roadmap_box'>
+                             
+                <span className='sub_roadmap_box_text_title'>Phase 1</span>
+                    <p>Project Ideation & Vision</p>
+                    <p>Community Engagement</p>
+                    <p>Initial Branding</p>
+                    <p>Basic Marketing Setup</p>
                     </div>
-                      </div> 
+                          </div> 
+                          </div>
+                        <div className='roadmap_main_box'>
+                      <span className='sub_roadmap_box_text_heading_title'>Building the Core 🚀</span>
+                      <div className='roadmap_box'>
+                          <div className='sub_roadmap_box'>
+                             
+                <span className='sub_roadmap_box_text_title'>Phase 2</span>
+                    <p>Smart Contract Development</p>
+                    <p>Website Development</p>
+                    <p>Expanding Marketing Efforts</p>
+                    <p>Community Growth Initiatives</p>
+                    </div>
+                          </div> 
+                          </div>
+                        <div className='roadmap_main_box'>
+                      <span className='sub_roadmap_box_text_heading_title'>Expansion & Engagement 🌟</span>
+                      <div className='roadmap_box'>
+                          <div className='sub_roadmap_box'>
+                             
+                <span className='sub_roadmap_box_text_title'>Phase 3</span>
+                    <p>Beta Launch of Platform</p>
+                    <p>Smart Contract Deployment</p>
+                    <p>Frost Guardian Program Launch</p>
+                    </div>
+                          </div> 
+                          </div>
+                        <div className='roadmap_main_box'>
+                      <span className='sub_roadmap_box_text_heading_title'>Ecosystem Development 🚀</span>
+                      <div className='roadmap_box'>
+                          <div className='sub_roadmap_box'>
+                             
+                <span className='sub_roadmap_box_text_title'>Phase 4</span>
+                    <p>Token Utility Integration</p>
+                    <p>Community-Driven Features</p>
+                    <p>Cross-Project Partnerships</p>
+                    <p>Advanced Engagement Programs</p>
+                    </div>
+                          </div> 
+                          </div>
+                        <div className='roadmap_main_box'>
+                      <span className='sub_roadmap_box_text_heading_title'>Long-Term Growth 🚀</span>
+                      <div className='roadmap_box'>
+                          <div className='sub_roadmap_box'>
+                             
+                <span className='sub_roadmap_box_text_title'>Phase 5</span>
+                    <p>Global Community Events</p>
+                    <p>Sustainable Growth Initiatives</p>
+                    <p>Ongoing Development & Innovation</p>
+                    </div>
+                          </div> 
+                          </div>
                       
-            <div className='roadmap_box'>
-                <div className='sub_roadmap_box'>
-                <span>BUDHA</span>
-                    <p>Lucky Buddha Launch - Now Available on Opensea</p>
-                    </div>
-            </div> 
-            
-            <div className='roadmap_box'>
-                <div className='sub_roadmap_box'>
-                <span>FOO DOG</span>
-                    <p>Foo Dogs - A FREE NFT for all Lucky Buddha owners</p>
-                    </div>
-            </div>
-            
-            <div className='roadmap_box'>
-                <div className='sub_roadmap_box'>
-                <span>UNKNOWN</span>
-                    <p>??????????</p>
-                    </div>
-            </div>
+          
             </div>
 
             </div>
