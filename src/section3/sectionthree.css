@@ -21,7 +21,7 @@ h3{
 .section_three{
     display: flex;
     color: #D1D5DB;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border: 0.1px solid #e5e7eb46;
     border-radius: 10px;
@@ -38,7 +38,7 @@ h3{
 .card{
     background-color: rgb(37 37 54);
     border: 0.1px solid #e5e7eb46;
-    width: 100%;
+    width: 80%;
     padding: 15px;
     border-radius: 10px;
 }

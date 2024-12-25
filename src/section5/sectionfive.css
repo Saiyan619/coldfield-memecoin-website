@@ -1,0 +1,117 @@
+.roadmap_main_container{
+    margin-top: 50px;
+    padding: 30px;
+}
+
+
+.section_five_sub_main_container{
+    display: flex;
+    justify-content: center;
+}
+
+.sub_two_container{
+    display: flex;
+    gap: 20px;
+}
+
+.chinese_tex4{
+    font-size: 40px;
+    color: #d20c00;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+}.chinese_signs{
+    font-size: 40px;
+    color: #d20c00;
+    font-weight: bold;
+}
+
+.roadmap_nums{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: -5px;
+}
+.roadmap_line{
+    background: linear-gradient(rgb(52, 148, 230), rgb(236, 110, 173));
+    width: 5px;
+    height: 170px;
+}
+h5{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: -5px;
+    text-align: left;
+}
+
+
+p{
+    font-size: 13px;
+}
+
+
+
+.roadmap_counter_container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.roadmap_container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.roadmap_box{
+    background-color: rgb(37 37 54);
+    border: 0.1px solid #e5e7eb46;
+    margin-bottom: 90px;
+    border-radius: 10px;
+    color: #D1D5DB;
+}
+
+.sub_roadmap_box{
+    padding: 30px;
+}
+
+.sub_roadmap_box > span{
+    font-weight: bold;
+}
+
+.footer_text{
+   display: grid;
+   place-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+
+    h5{
+        font-size: 30px;
+    }
+    .container_first{
+        width: 100%;
+    }
+    .section_four_sub_main_container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .sub_two_container{
+        display: flex;
+        margin-top: 30px;
+        gap: 10px;
+    }
+
+    .chinese_signs{
+        font-size: 13px;
+        color: #d20c00;
+        font-weight: bold;
+    }
+
+    .roadmap_line{
+        background-color: black;
+        width: 5px;
+        height: 160px;
+    }
+}

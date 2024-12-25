@@ -5,6 +5,7 @@ import SectionOne from './section1/SectionOne'
 import SectionTwo from './section2/SectionTwo'
 import SectionThree from './section3/SectionThree'
 import SectionFour from './section4/SectionFour'
+import SectionFive from './section5/SectionFive'
 
 function App() {
 
@@ -16,8 +17,9 @@ function App() {
       <div className='wrapper_1'>
       <SectionTwo />
         <SectionThree />
-      </div>
       <SectionFour />
+      <SectionFive />
+      </div>
     </>
   )
 }
