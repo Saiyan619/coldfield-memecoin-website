@@ -1,0 +1,100 @@
+.section_three_main{
+    background-color: #090012;
+    color: #D1D5DB;
+    padding: 10px;
+}
+
+h3{
+    font-size: 60px;
+    text-align: center; 
+    font-weight: bold;
+    background: linear-gradient(90deg, #38fac3 20%, #d53eed 80%);
+    background-clip: text;
+    background-clip: text; 
+    background-clip: text; 
+    background-clip: text; 
+    background-clip: text;
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+.section_three{
+    display: flex;
+    color: #D1D5DB;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.1px solid #e5e7eb46;
+    border-radius: 10px;
+    background-color: #0E0E20;
+}
+
+.card_container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.card{
+    background-color: rgb(37 37 54);
+    border: 0.1px solid #e5e7eb46;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card_title{
+    font-family: "Wendy One", serif;
+}
+
+.character_image{
+    width: 300px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .section_three{
+        display: flex;
+        color: #D1D5DB;
+        justify-content: space-between;
+        align-items: center;
+        border: 0.1px solid #e5e7eb46;
+        border-radius: 10px;
+        background-color: #0E0E20;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    h3{
+        font-size: 40px;
+        text-align: center; 
+        font-weight: bold;
+        background: linear-gradient(90deg, #38fac3 20%, #d53eed 80%);
+        background-clip: text;
+        background-clip: text; 
+        background-clip: text; 
+        background-clip: text; 
+        background-clip: text;
+        background-clip: text; 
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+    }
+
+    .card_container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .card{
+        background-color: rgb(37 37 54);
+        border: 0.1px solid #e5e7eb46;
+        width: 70%;
+        padding: 15px;
+        border-radius: 10px;
+        margin: auto;
+        text-align: center;
+    }
+}

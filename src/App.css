@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+body{
+  margin: 0;
+}
+
+
+h1{
+  font-family: "Wendy One", serif;
+}
+h2{
+  font-family: "Wendy One", serif;
+}
+h3{
+  font-family: "Wendy One", serif;
+}
+p{
+  font-family: "Wendy One", serif;
+}
+button{
+  font-family: "Wendy One", serif;
+}
+
+li{
+  font-family: "Wendy One", serif;
+}
+
+.wrapper_1{
+  background-color: #090012;
+}

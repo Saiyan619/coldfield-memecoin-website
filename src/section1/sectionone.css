@@ -1,0 +1,42 @@
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    background: linear-gradient(90deg, #d53eed , #38fac3);
+    border-top: 10px solid #800080;
+    border-bottom: 10px solid #800080;
+    height: 50px;
+   
+  }
+  
+  .scroll-content {
+    display: inline-flex;
+    margin-top: 10px;
+    animation: scroll 120s linear infinite;
+  }
+  
+  .scroll-content p {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin: 0 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  .scroll-content p > img{
+    width: 30px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
