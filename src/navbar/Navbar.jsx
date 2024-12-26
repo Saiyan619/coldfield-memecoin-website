@@ -10,6 +10,7 @@ const Navbar = () => {
         if (section) {
             section.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
+        setOpen(false)
     };
 
     return (
@@ -26,10 +27,10 @@ const Navbar = () => {
                     className={isOpen ? 'list_and_btn_container_active' : 'list_and_btn_container'}
                 >
                     <ul>
-                        <li onClick={() => handleScroll('section1')}>Home</li>
-                        <li onClick={() => handleScroll('section3')}>About</li>
-                        <li onClick={() => handleScroll('section4')}>Roadmap</li>
-                        <li onClick={() => handleScroll('section5')}>Tokenomics</li>
+                        <li onClick={() => handleScroll('head')}>Home</li>
+                        <li onClick={() => handleScroll('section2')}>About</li>
+                        <li onClick={() => handleScroll('section5')}>Roadmap</li>
+                        <li onClick={() => handleScroll('section3')}>Tokenomics</li>
                         <li onClick={() => handleScroll('section6')}>Faq</li>
                     </ul>
 

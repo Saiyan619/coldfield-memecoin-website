@@ -42,7 +42,7 @@ li{
     font-size: 11px;
     font-weight: 600;
     cursor: pointer;
-    color: #d20c00;
+    color: grey;
 }
 
 .hero_logo{
@@ -100,11 +100,11 @@ li{
         gap: 20px;
         position: absolute;
         top: 90%;
-        left: 0.5%;
+        left: 2%;
         height: 0vh;
         width: 95vw;
         overflow: hidden;
-        transition: 1s;
+        transition: .5s;
         border-radius: 10px;
     }
     
@@ -117,11 +117,11 @@ li{
         gap: 20px;
         position: absolute;
         top: 90%;
-        left: 0.5%;
+        left: 2%;
         height: 50vh;
     width: 95vw;
     overflow: hidden;
-        transition: 1s;
+        transition: .5s;
         border-radius: 10px;
     }
 
@@ -131,7 +131,7 @@ li{
         flex-direction: column;
         gap: 18px;
         margin-right: 50px;  
-        margin-top: 20px;  
+        margin-top: 50px;  
     }
 
     .hamburger{

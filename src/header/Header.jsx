@@ -3,7 +3,7 @@ import './header.css'
 
 const Header = () => {
   return (
-    <div className='header'>
+    <div id='head' className='header'>
           <div className='header_container'>
               <div className='header_text'> 
                   <h1>$Coldfield</h1>
