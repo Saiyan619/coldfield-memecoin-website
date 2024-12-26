@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './footer/Footer'
 import Header from './header/Header'
 import Navbar from './navbar/Navbar'
 import SectionSeven from './secion7/SectionSeven'
@@ -23,6 +24,7 @@ function App() {
         <SectionFive />
         <SectionSix />
         <SectionSeven />
+        <Footer />
       </div>
     </>
   )
