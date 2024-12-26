@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './header/Header'
 import Navbar from './navbar/Navbar'
+import SectionSeven from './secion7/SectionSeven'
 import SectionOne from './section1/SectionOne'
 import SectionTwo from './section2/SectionTwo'
 import SectionThree from './section3/SectionThree'
@@ -21,6 +22,7 @@ function App() {
       <SectionFour />
         <SectionFive />
         <SectionSix />
+        <SectionSeven />
       </div>
     </>
   )
