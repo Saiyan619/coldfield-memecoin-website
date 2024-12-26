@@ -1,0 +1,78 @@
+.section6{
+    padding: 10px;
+}
+.section_six_container{
+    border-radius: 10px;
+    border: 0.1px solid #e5e7eb46;
+    background-color: #0E0E20;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+}
+.accordion {
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+h5{
+    font-size: 30px;
+    text-align: center; 
+    font-weight: bold;
+    padding: 0px;
+    background: linear-gradient(90deg, #38fac3 20%, #d53eed 80%);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.section_six_img_container{
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+}
+.section_six_img{
+    width: 100px;
+}
+
+
+.accordion-item {
+    border-bottom: 0.1px solid #e5e7eb46;
+}
+
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    color: white;
+    font-family: "Wendy One", serif;
+
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.accordion-content.show {
+    max-height: 300px; /* Adjust to the expected height of the content */
+    padding: 15px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    h7{
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: -5px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+}

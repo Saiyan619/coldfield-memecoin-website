@@ -4,9 +4,9 @@ import './sectionfive.css'
 const SectionFive = () => {
   return (
       <div id='section5' className='roadmap_main_container'>
-          <div>
-              <h4>Roasmap Development</h4>
-              <p>Welcome to Coldfield, the meme coin that brings a chill</p>
+          <div className='roadmap_main_main_hero_container'>
+              <span className='roadmap_main_main_hero_container_hero_text'>Roadmap Development</span>
+              <p className='roadmap_main_main_hero_sub_text'>Welcome to Coldfield, the meme coin that brings a chill</p>
           </div>
           
     <div className='section_five_sub_main_container'>
